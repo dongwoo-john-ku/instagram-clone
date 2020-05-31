@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Homework</title>
+    <style media="screen">
+
+    body{
+      background: red;
+      position:absolute;
+      top:0;right:0;bottom:0;left:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+
+      display:-webkit-flex;
+      -webkit-align-item : center;
+      -webkit-justify-content:center;
+    }
+    .feed{
+      width:1000px;
+      height: 400px;
+      background-color: yellow;
+      border: 20px solid green;
+      position:absolute;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+
+    }
+    .feed-child{
+      width:900px;
+      height: 300px;
+      background-color: yellow;
+      border: 20px solid green;
+      position:absolute;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+
+
+    }
+    .feed-grand-child{
+      width:150px;
+      height: 100px;
+      background-color: white;
+      border: 20px inset pink;
+      font-size: 50px;
+      text-align: center;
+      }
+
+    .feed-grand-child-different{
+      width:200px;
+      height: 140px;
+      background-color: white;
+
+      border-left: 200px solid blue;
+      border-right: 200px solid blue;
+      font-size: 50px;
+      text-align: center;
+
+    }
+    .feed-grand-child-different-chile{
+      background-clip: content-box; /* <---- */
+      width:130px;
+      height: 100px;
+      background-color: white;
+      border: 20px outset pink;
+
+/*      width:200px;
+      height: 140px;
+      box-shadow: inset 0px 0px 0px 20px pink;*/
+    }
+
+    .p{
+        position: relative;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="feed">
+      <div class="feed-child">
+        <div class="feed-grand-child">3</div>
+        <div class="feed-grand-child-different"><div class="feed-grand-child-different-chile"><div class="p">2</div></div></div>
+        <div class="feed-grand-child">1</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 55px;
+}
+
+.footer__nav .footer__list{
+  display: flex;
+}
+
+.footer__list .footer__item{
+  margin-right: 10px;
+}
+
+.footer__list .footer__link{
+  color: #003569;
+}

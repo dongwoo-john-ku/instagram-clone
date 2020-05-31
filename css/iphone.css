@@ -1,0 +1,74 @@
+@media screen and (min-width: 320px) and (max-width: 670px) {
+  main {
+    margin-top: 0;
+  }
+
+  .navigation input {
+    display: none;
+  }
+
+  .photo .photo__add-comment-container {
+    display: none;
+  }
+
+  .u-default-box {
+    background-color: transparent;
+    border: none;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer__list .footer__item {
+    margin-bottom: 10px;
+  }
+
+  .photo {
+    margin-bottom: 30px;
+  }
+
+  #login .login__column:first-child{
+    display: none;
+  }
+
+  #login .login__column:nth-child(2){
+    width: 100%;
+  }
+
+  .login__t-box .login__appstores{
+    display: flex;
+    justify-content: center;
+  }
+
+  #profile .profile__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .profile__header .avatar__container{
+    margin-bottom: 30px;
+  }
+
+  #profile .profile__header:nth-child(1){
+    order:1;
+  }
+
+  #profile .profile__header:nth-child(2){
+    order:3;
+  }
+
+  #profile .profile__header:nth-child(3){
+    order:2;
+  }
+
+}
